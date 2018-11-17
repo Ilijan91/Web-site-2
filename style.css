@@ -1,0 +1,381 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0 ;
+	padding:0 ;
+	font-size: 14px;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	color:#201A1A;
+	background: url(Images1/back.png);
+
+}
+
+h1, h2, h3 ,h4 ,h5 ,h6 {
+	color:#1d343b;
+}
+h1 {font-size:36px;}
+h2 {font-size:32px;}
+h3 {font-size:30px;}
+h4 {font-size:28px;}
+h5 {font-size:20px;}
+h6 {font-size:18px;}
+
+#wrapper {
+	width: 1380px;
+	margin: auto;
+	padding: auto;
+}
+#header {
+	overflow: hidden;
+	background-color: #1d343b;
+}
+#kontakt {
+	float:left;
+}
+#social {
+	float:right;
+}
+.logo {	
+	float:left;
+	width:300px;
+}
+#header1 {
+	float: right;
+	border-bottom: medium solid #CC9403;
+}
+#navi {
+	overflow: hidden;
+	background-color: #1d343b;
+	border-bottom: medium solid #706B6B;
+	
+}
+#main {
+	overflow: hidden;
+	background-color:whitesmoke;
+	
+}
+#navi #header1 ul {
+	list-style: none;
+}
+#navi #header1 ul li {
+	float:left;
+	padding: 0;
+}
+#navi #header1 ul li a:visited, 
+#navi #header1 ul li a:link {
+	padding: 10px;
+	text-decoration: none;
+}
+#navi #header1 ul li a:hover {
+	background: #CC9403;
+}
+#navi #header1 ul li a {
+	display: block;
+	padding: 10px 10px 0 10px;
+	height: 30px;
+	line-height: 30px;
+	transition: 0.5s all ease;
+	color:#fff;
+}
+#navi #header1 ul li a:active {
+	background:#7D5A00;
+}
+#header a:visited, 
+#header a:link {
+	padding: 10px;
+	text-decoration: none;
+	color:#F2F2FF;
+}
+#header a:hover {
+	color:#fdbe17;
+}
+
+#zemlje {
+	float:left;
+	width: 900px;
+}
+#zemlje a:link,
+#zemlje a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+#zemlje a:hover {
+	color: #226666;	
+}
+.zemlje1 {
+	margin-top: 40px;
+	float:left;
+	width: 300px;
+}
+.text {
+	width: 300px;
+	height: 300px;
+	float:left;
+	text-align:left;
+	margin-top: 40px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.zemlje1 a:link span,
+.zemlje1 a:visited span {
+	color:aliceblue;
+	text-decoration: none;
+	background:#1d343b; 
+	border-bottom: thick solid #CC9403;
+}
+.zemlje1 a {
+	text-decoration: none;
+}
+.zemlje1 a:hover span {
+	background: #A2631D;
+}
+.zemlje1 a:active span {
+	background:#532c00;
+	border-bottom: thick solid #CC9403;
+}
+.zemlje1 a span {
+	padding: 10px;
+	text-align: center;
+	display: block;
+	height: 30px;
+	text-transform: uppercase;
+	font-size:20px;
+}
+
+.metropola {
+	margin-top: 40px;
+	float:left;
+	width: 300px;
+}
+.metropola a:link span,
+.metropola a:visited span {
+	color:aliceblue;
+	text-decoration: none;
+	background:#1d343b; 
+	border-bottom: thick solid #CC9403;
+}
+.metropola a {
+	text-decoration: none;
+}
+.metropola a:hover span {
+	background: #A2631D;
+}
+.metropola a:active span {
+	background:#532c00;
+	border-bottom: thick solid #CC9403;
+}
+.metropola a span {
+	padding: 10px;
+	text-align: center;
+	display: block;
+	height: 30px;
+	text-transform: uppercase;
+	font-size:20px;
+}
+#metropole {
+	float:left;
+	width: 900px;
+}
+#metropole a:link,
+#metropole a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+#metropole a:hover {
+	color: #226666;
+}
+#prevoz {
+	float:right;
+	width: 400px;
+	padding: 20px;
+}
+#car span>a:visited,
+#car span>a:link{
+	color:#028C11;
+	text-decoration: none;
+}
+#car span>a:hover {
+	color:#17EC07;
+}
+#footer {
+	clear: both;
+	background-color: #1d343b;
+	overflow: hidden;
+	border-top: medium solid #706B6B;
+	color:aliceblue;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#mapa {
+	position: relative;
+	left: 350px;
+}
+#mapa ul {
+	list-style: none;
+}
+#footer #mapa ul li a {
+	float:left;
+	padding: 10px;
+	text-decoration: none;
+	list-style: none;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	transition: 0.5s all ease;
+	color:#fff;
+}
+#footer #mapa ul li a:visited, 
+#footer #mapa ul li a:link {	
+	text-decoration: none;
+	
+}
+#footer #mapa ul li a:hover {
+	background: #CC9403;
+}
+#footer #mapa ul li a:active {
+	background: #7D5A00;
+}
+#metropole {
+	float:left;
+	width: 900px;
+}
+#daleke {
+	float:left;
+	width: 920px;
+}
+#daleke a:link span,
+#daleke a:visited span {
+	color:aliceblue;
+	text-decoration: none;
+	background:#1d343b; 
+	border-bottom: thick solid #CC9403;
+}
+#daleke a {
+	text-decoration: none;
+}
+#daleke a:hover span {
+	background: #A2631D;
+}
+#daleke a:active span {
+	background:#532c00;
+	border-bottom: thick solid #CC9403;
+}
+#daleke a span {
+	padding: 10px;
+	margin-top: 5px;
+	text-align: center;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-size:20px;
+}
+#minut  {
+	float: left;
+	width: 900px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#minut a:visited,
+#minut a:link {
+	text-decoration: none;
+	color: #1d343b;
+	
+}
+#minut a:hover {
+	color:#A2631D;
+}
+#minut a:active {
+	color:#CC9403;
+}
+img {
+	vertical-align:bottom;
+}
+#glavni {
+	float: left;
+	width: 900px;
+	padding: 20px;
+}
+#onama {
+	float:left;
+}
+#forma {
+	float: left;
+	
+}
+
+#sidebar {
+	float: right;
+	padding: 20px;
+	
+}
+#office {
+	float:right;
+}
+
+#metropole {
+	text-align: center;
+}
+
+.destinacije {
+	float: left;
+	width: 290px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.destinacije:nth-of-type(3){
+	margin-right: 0px;
+}
+.destinacije:nth-of-type(2){
+	margin-right: 30px;
+}
+#first {
+	float: left;
+	margin-left: 100px;
+}
+#last {
+	float:right;
+	margin-right: 100px;
+}
+
+#map {
+	width: 90%;
+	height: 300px;
+	border: 5px solid #2D515C;
+	box-sizing: border-box;
+}
+#form1 input[type="submit"],
+#form1 input[type="reset"]{
+	color:#fff;
+	background-color: #1d343b;
+	padding: 10px;
+	border: 1px solid #A2631D;
+}
+#form1 textarea  {
+	width: 350px;
+	height: 150px;
+	padding: 4px;
+	border: 1px solid #A2631D;
+	box-sizing: border-box;
+}
+#form1 input[type="text"] {
+	width: 90%;
+	padding: 5px;	
+	border: 1px solid #A2631D;
+	box-sizing: border-box;
+}
+#form1 input[type="email"],
+#form1 input[type="tel"]{
+	border: 1px solid #A2631D;
+	box-sizing: border-box;
+	padding: 4px;
+}
+#slajd {
+	position: absolute;
+	top:0;
+	left:90px;
+}
+
+
